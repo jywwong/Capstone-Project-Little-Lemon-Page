@@ -1,10 +1,16 @@
-import './App.css';
+import React from 'react'
+import Nav from './components/Nav.js';
+import Landing from './components/Landing.js';
+import Specials from './components/Specials.js';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-     Heading
-    </div>
+    <>
+  <Nav/>
+  <Landing/>
+<Specials/>
+  </>
   );
 }
 
