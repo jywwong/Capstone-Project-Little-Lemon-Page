@@ -1,16 +1,16 @@
 import React from 'react'
+import Routing from './components/Routing.js'
 import Nav from './components/Nav.js';
-import Landing from './components/Landing.js';
-import Specials from './components/Specials.js';
+import Footer from './components/Footer.js';
 import './index.css';
 
 function App() {
   return (
-    <>
-  <Nav/>
-  <Landing/>
-<Specials/>
-  </>
+    <div className="App">
+      <Nav/>
+      <Routing/>
+      <Footer/>
+  </div>
   );
 }
 

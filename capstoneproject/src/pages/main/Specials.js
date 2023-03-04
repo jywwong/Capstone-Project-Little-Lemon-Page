@@ -2,8 +2,8 @@ import React from 'react';
 import './css/Specials.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import GreekSalad from '../images/greek salad.jpg';
-import LemonDessert from '../images/lemon dessert.jpg';
+import GreekSalad from '../../assets/greek salad.jpg';
+import LemonDessert from '../../assets/lemon dessert.jpg';
 
 function Specials () {
     return (
