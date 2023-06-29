@@ -8,10 +8,9 @@ function Landing() {
         <span className={'landing'}>
             <span className={'landing-text'}>
             <h1 className={'title'}>Little Lemon</h1>
-            <h2>Chicago</h2>
+            <h2>Shoreditch</h2>
             <p>We are a family-owned Mediterranean resturant, focused on traditional recipes served with a modern twist.</p>
-            <Link to="/booking"><button>Book a table</button></Link>
-            <a href="./BookingForm.js"><button>Book a table</button></a>
+            <Link to="/reservations"><button>Book a table</button></Link>
         </span>
         <span className={'landing-image'}>
                 <img src={HeroImage} alt='littlelemon-heroimage' />

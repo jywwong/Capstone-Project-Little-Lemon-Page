@@ -11,8 +11,7 @@ function Specials () {
         <>
             <>
             <span className={'specials-banner'}>
-                <h1 className={'specials-title'}>This week's specials!</h1>
-                <a href="/onlinemenu"><button>Online Menu</button></a>
+                <h1 className={'specials-title'}>This week's specials</h1>
                 </span>
                 <span className={'specials-gallery'}>
                 <Card style={{ width: '18rem' }}>
@@ -23,7 +22,6 @@ function Specials () {
                         <Card.Text className={'title-text'}>
                             The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.
                         </Card.Text>
-                        <Button variant="primary">Order a delivery</Button>
                     </Card.Body>
                 </Card>
 
@@ -35,7 +33,6 @@ function Specials () {
                         <Card.Text className={'title-text'}>
                             This comes straight from grandma's recipe book, every last ingredient has been sourcedand is as authentic as can be imagined.
                         </Card.Text>
-                        <Button variant="primary">Order a delivery</Button>
                     </Card.Body>
                 </Card>
 
@@ -47,11 +44,10 @@ function Specials () {
                     <Card.Text className={'title-text'}>
                     Our Bruchetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
                     </Card.Text>
-                    <Button variant="primary">Order a delivery</Button>
                 </Card.Body>
             </Card>
             </span>
             </></>
     );
 }
-export default Specials
+export default Specials;

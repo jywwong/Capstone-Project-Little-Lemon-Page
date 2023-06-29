@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 function BookingForm () {
 const [date, setDate] = useState();
@@ -63,4 +63,4 @@ return (
 </div>
 )
 }
-export default BookingForm
+export default BookingForm;
