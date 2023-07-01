@@ -1,34 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&family=Lato&display=swap');
+
 .specials-banner{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    justify-content: center;
+    background-color: #495e57;
+    padding: 1em;
 }
 
-Card{
-    background-color: #EDEFEE;
+Card {
+    background-color: #495e57;
 }
 
 .specials-title {
-    font-family: 'Markazi';
-    color: #333333;
-    font-size: 37px;
-    font-weight:bold;
+    font-family: 'Lato';
+    color: #EDEFEE;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.specials-title h1 {
+    text-align: center;
 }
 
 .specials-gallery {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 15px;
-    background-color: #EDEFEE;
+    padding: 1.5em;
+    background-color: #495e57;
 }
 
-.title-text {
+.card-image {
+    width: 20vw;
+}
+
+.card-title {
+    color: #F4CE14;
+}
+
+.card-price {
     color: #333333;
-    font-size: 16px;
+    margin-bottom: 0.3em;
+}
+
+.card-text {
+    color: #333333;
+    font-size: 0.9em;
     max-width: 65ch;
     line-height: 1.5;
+    margin-top: 0.5em;
 }

@@ -1,46 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&family=Markazi+Text:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&family=Lato&display=swap');
 
 .landing {
     display: flex;
     flex-direction: row;
-    background-color: #495e57;
+    background-image: url('https://images.unsplash.com/photo-1520756977789-ebed5554fb70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: space-between;
+    padding: 3em;
+    padding-bottom: 4em;
 }
 
-.landing-text {
-width: 200vw;
-padding: 30px;
-}
+.landing-text-left {
+    /*width: 60vw;*/
+    padding: 2em;
+    }
 
-.landing-image {
-width: 400vw;
-padding: 25px;
-}
+    /*landing-image-right {
+    width: 40vw;
+    padding: 2em;
+    }
 
-.title {
-    font-family: 'Markazi';
-    font-size: 35pt;
+    .landing-image-right img {
+    width: 40vw;
+    }*/
+
+
+.landing-title {
+    font-family: 'Karla';
+    font-size: 2.5em;
     color: #F4CE14;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
-h2 {
-    font-family: 'Markazi';
+.landing-location {
+    font-family: 'Karla';
     color: #EDEFEE;
-    font-size: 23pt;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 0.5em;
 }
 
-p {
+.landing-description {
 color: #EDEFEE;
-font-size: 20px;
+font-size: 1em;
+padding-bottom: 0.5em;
+padding-left: 1.3em;
+padding-right: 0.5em;
+padding-top: 0.5em;
 }
 
 button {
     background-color: #F4CE14;
     text-align: center;
+    cursor: pointer;
+    text-decoration: none;
     font-size: 16px;
     color: #333333;
     border: none;
     border-radius: 4px;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 1em;
+    margin-left: 1.3em;
+}
+
+button:hover,
+button:focus {
+  border-color: rgba(244, 206, 20, 0.15);
+  box-shadow: rgba(244, 206, 20, 0.1) 0 4px 12px;
+  color: rgba(230, 228, 218, 0.938);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: #f2e710;
+  border-color: rgba(244, 206, 20, 0.15);
+  box-shadow: rgba(244, 206, 20, 0.06) 0 2px 4px;
+  color: rgba(6, 56, 9, 0.908);
+  transform: translateY(0);
 }

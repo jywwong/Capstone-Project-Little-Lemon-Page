@@ -3,9 +3,11 @@ import './menu.css';
 
 function Menu() {
     return (
-    <><section className='container-upper'>
+    <section className='container-menu'>
+    <section className='title'><h2>Menu</h2></section>
+    <section className='container-upper'>
             <section className='Appetizer'>
-                <h2>Appetizer</h2>
+                <h2>Appetiser</h2>
                 <p>Bruchetta...£5</p>
                 <p>Tzatziki...£6</p>
                 <p>Arancini...£6</p>
@@ -36,7 +38,7 @@ function Menu() {
                 <p>Mediterranean Herbal Tea...£5</p>
                 <p>Bellini...£7</p>
             </section>
-            </section></>
+            </section></section>
     )
 }
 

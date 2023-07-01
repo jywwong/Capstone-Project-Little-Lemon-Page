@@ -1,0 +1,42 @@
+.container-menu {
+   background-image: url('../../assets/Untitleddesign2.jpg');
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    padding-top: 3em;
+    text-align: center;
+}
+
+.title h2 {
+    color: #F4CE14;
+    font-size: 2em;
+}
+
+.container-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+.container-upper p {
+    font-size: 1.2em;
+}
+
+.container-lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10em;
+    margin-left: 10em;
+    padding-bottom: 7em;
+}
+
+.container-lower p {
+    font-size: 1.2em;
+}

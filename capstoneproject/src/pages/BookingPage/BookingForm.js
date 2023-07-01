@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './css/BookingForm.css';
 
 function BookingForm () {
 const [date, setDate] = useState();
@@ -12,10 +13,8 @@ const [occasion, setOccasion] = useState();
  };
 
 return (
-<div className="Booking">
-<form onSubmit={handleSubmit}>
-<fieldset>
-   <div className="Field">
+<form className="bookingform" onSubmit={handleSubmit}>
+   <section className="field-date">
       <label>Choose date</label>
          <input
          type = "date"
@@ -23,8 +22,8 @@ return (
       onChange={(e) => {setDate(e.target.value);}}
       placeholder="res-date"
       />
-</div>
-<div className="Field">
+</section>
+<section className="field-time">
    <label>Choose time</label>
    <select
    value={time}
@@ -36,8 +35,8 @@ return (
       <option value="21:00">21:00</option>
       <option value="22:00">22:00</option>
       </select>
-      </div>
-<div className="Field">
+      </section>
+<section className="field-numguests">
    <label>Number of guests</label>
    <input
    type="number"
@@ -47,20 +46,22 @@ return (
    onChange={(e) => setGuests(e.target.value)}
    placeholder="1"
    />
-</div>
-<div className="Field">
+</section>
+<section className="field-occasion">
    <label>Occasion</label>
    <select
    value={occasion}
    onChange={(e) => setOccasion(e.target.value)}>
+      <option value="none">None</option>
       <option value="birthday">Birthday</option>
       <option value="anniversary">Anniversary</option>
       </select>
-      </div>
-<button type="submit">Make Your reservation</button>
-</fieldset>
+      </section>
+      <label>Your email:</label>
+      <input type="email" placeholder="booking@email.com"/>
+      <br/>
+<button type="submit">Make your reservation</button>
 </form>
-</div>
 )
 }
 export default BookingForm;

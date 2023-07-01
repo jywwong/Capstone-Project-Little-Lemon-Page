@@ -1,0 +1,35 @@
+.about-container {
+    display: flex;
+    margin: 5vw;
+    justify-content: space-evenly;
+}
+
+.about-container-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45vw;
+}
+
+.about-container-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 45vw;
+}
+
+.about-container-right h2 {
+    font-size: 1.8em;
+    font-family: 'Lato';
+    align-self: flex-start;
+    padding-bottom: 0.4em;
+}
+
+.about-image {
+    width: 40vw;
+}
+
+.about-desc {
+    width: 45vw;
+    line-height: 1.5;
+}

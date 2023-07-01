@@ -1,11 +1,13 @@
 import React from 'react';
 import BookingForm from './BookingForm.js';
+import './css/BookingPage.css';
 
 function BookingPage () {
 return (
-    <><h1>Book your table at Little Lemon.</h1>
-    <p>Your next meal or special occasion is settled with us!</p>
-    <BookingForm /></>
+    <section className='bookingpage-container'>
+        <h1>Reservations</h1>
+    <p>Book your next meal or celebrate a special occasion with us!</p>
+    <BookingForm /></section>
 )
 }
 

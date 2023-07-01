@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 function Nav () {
     return (
     <nav className="main-nav">
-    <img src={Logo} alt='logo'/>
+    <Link to="/"><img src={Logo} alt='litlelemon-logo'/></Link>
     <ul className="links">
     <li><Link to="/">Home</Link></li>
     <li><Link to="/menu">Menu</Link></li>
