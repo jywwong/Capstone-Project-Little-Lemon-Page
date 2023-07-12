@@ -2,6 +2,9 @@ form {
     padding: 1rem 0.7rem 7rem 0.7rem;
     border: none;
     outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 label {
@@ -9,18 +12,48 @@ color: #ccd0ce;
 margin-right: 10em;
 }
 
-input {
+.field-date input, .field-email input {
     border: none;
     border-radius: 0.1em;
     outline: none;
-    background-color: rgba (204 208 206 0.6);
+    background-color: transparent;
+    color: #ccd0ce;
     cursor: pointer;
     width: 15em;
     height: 1.5em;
     padding: 0.5em;
 }
 
+.field-time select {
+    background-color: transparent;
+    color: #ccd0ce;
+    border: none;
+}
+
+.field-email input::placeholder {
+    color: #ccd0ce;
+}
+
+.field-occasion select {
+    background-color: transparent;
+    color: #ccd0ce;
+    border: none;
+}
+
+.field-numguests input {
+    border: none;
+    border-radius: 0.1em;
+    outline: none;
+    background-color: transparent;
+    color: #ccd0ce;
+    cursor: pointer;
+    width: 6em;
+    padding: 0.3em;
+    height: 1.5em;
+}
+
 option {
     border: none;
     outline: none;
+    width: 6em;
 }

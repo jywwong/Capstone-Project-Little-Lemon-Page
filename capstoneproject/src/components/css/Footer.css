@@ -1,3 +1,8 @@
+.footer-container {
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+
 .footer-navigation {
     display: flex;
     flex-direction: row;
@@ -28,6 +33,10 @@
 
 .footer-contacts p {
     font-size: 0.8em;
+}
+
+.footer-contacts a {
+    font-size: 1em;
 }
 
 @media screen and (max-width:414px) {

@@ -16,7 +16,7 @@ return (
         </ul>
     </section>
     <section className="footer-contacts">
-    <p>23 Bethnal Green Road, Shoreditch, London, E1 6GY | 1234 5678 | <a href="mailto:info@littlelemon.com">info@littlelemon.com</a> | <a href="www.instagram.com">Instagram</a></p>
+    <p>23 Bethnal Green Road, Shoreditch, London, E1 6GY | 1234 5678 | <a href="mailto:info@littlelemon.com">info@littlelemon.com</a> | <a href="https://www.instagram.com">Instagram</a></p>
     </section>
     </section>
     </>
