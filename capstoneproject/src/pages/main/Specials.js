@@ -16,7 +16,7 @@ function Specials () {
                 <section className={'specials-gallery'}>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img className={'card-image'} variant="top" src={GreekSalad} />
-                    <Card.Body>
+                    <Card.Body className="card-body">
                         <Card.Title className={'card-title'}>Greek Salad</Card.Title>
                         <Card.Subtitle className={'card-price'}>£12.99</Card.Subtitle>
                         <Card.Text className={'card-text'}>

@@ -6,7 +6,7 @@
 }
 
 .title {
-    padding-top: 3em;
+    padding-top: 1.5em;
     text-align: center;
 }
 
@@ -25,29 +25,40 @@
     margin-bottom: 3%;
 }
 
-.container-upper p, .container-upper h2 {
-    font-size: 1.2em;
+.container-upper h2 {
+    font-size: 1.7em;
     color: #31403b;
+}
+
+.container-upper p {
+    font-size: 1.3em;
+    color: #31403b;
+    margin: 0.5em;
 }
 
 .appetizer-title {
     text-align: center;
+    padding: 0.6em;
 }
 
 .main-title {
     text-align: center;
+    padding: 0.6em;
 }
 
 .salad-title {
     text-align: center;
+    padding: 0.6em;
 }
 
 .dessert-title {
     text-align: center;
+    padding: 0.6em;
 }
 
 .drinks-title {
     text-align: center;
+    padding: 0.6em;
 }
 
 .container-lower {
@@ -59,7 +70,13 @@
     padding-bottom: 7%;
 }
 
-.container-lower p, .container-lower h2 {
-    font-size: 1.2em;
+.container-lower h2 {
+    font-size: 1.7em;
     color: #31403b;
+}
+
+.container-lower p {
+    font-size: 1.3em;
+    color: #31403b;
+    margin: 0.5em;
 }
