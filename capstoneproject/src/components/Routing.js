@@ -8,10 +8,10 @@ import Menu from "../pages/Menu/menu.js";
 export default function Routing() {
   return (
     <Routes>
-      <Route path="/" element={<Main/>} />
+      <Route path="/" element={<Main />} />
       <Route path="/reservations" element={<BookingPage />} />
-      <Route path="/about" element={<About/>}/>
-      <Route path="/menu" element={<Menu/>}/>
+      <Route path="/about" element={<About />} />
+      <Route path="/menu" element={<Menu />} />
     </Routes>
   );
 }
